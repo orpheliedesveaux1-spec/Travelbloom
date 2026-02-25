@@ -1,0 +1,46 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Bloom - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h2>TRAVEL BLOOM</h2>
+        <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='about.html'></a>About Us</li>
+            <li><a href='contact.html'></a>Contact Us</li>
+        </ul>
+    </nav>
+
+    <section class="hero" style="background-image: url('images/hero-bg.jpg');">
+        <div class="hero-content">
+            <h1>Explore Your Next Destination!</h1>
+            <p>Discover beaches, temples, and cities around the world.</p>
+            <button onclick="alert('Booking feature coming soon!')">Book Now</button>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="search-container">
+        <input type="text" id="searchBox" placeholder="Search Beach, Temple, or City">
+        <button onclick="searchPlace()">Search</button>
+    </div>
+
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
